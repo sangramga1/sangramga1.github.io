@@ -18,7 +18,7 @@ title: Archive
       {% endif %}
     {% endif %}
 
-    {{ post.date | date: site.archive_date_format }}: <a href="{{ post.url }}">{{ post.title }}</a><br />
+    {{ post.date | date: site.archive_date_format }}: <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><br />
 
     {% if forloop.last %}
       </div>
