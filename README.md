@@ -119,11 +119,13 @@ Create tags with `_tools/createTag url-name "Pretty Name"`. Tag posts by adding 
 
 For example:
 
-* Create a new tag called *using-git*
+* Create a new tag shown as *Using git*, called ```using-git``` in file 
 
 ```
-$ ./_tools/createTag using-git "Using git"
+$ ./_tools/createTag "Using git"
 ```
+
+Note: When using this script, shown name (e.g. Using git) will be automatically converted into call name (e.g. ```using-git```), where the capitalization will be erase and all symbol (other then numbers and letters) will be replaced by ```-```
 
 * Create a new post file: `_posts/2014-12-31-how-to-clone-a-repository.md`
 
