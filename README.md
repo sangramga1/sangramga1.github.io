@@ -119,15 +119,18 @@ Create tags with `_tools/createTag url-name "Pretty Name"`. Tag posts by adding 
 
 For example:
 
-* Create a new tag shown as *Using git*, called ```using-git``` in file 
+### 1. Create a new tag rendered as *Using git* on pages, but referenced as `using-git` in source files
 
 ```
 $ ./_tools/createTag "Using git"
 ```
 
-Note: When using this script, shown name (e.g. Using git) will be automatically converted into call name (e.g. ```using-git```), where the capitalization will be erase and all symbol (other then numbers and letters) will be replaced by ```-```
+Note: This script converts the pretty name you specify (e.g. *Using git*) into a simple slug name (e.g. `using-git`), with these side effects:
 
-* Create a new post file: `_posts/2014-12-31-how-to-clone-a-repository.md`
+* all capitalized characters are converted to lowercase
+* all symbols (other then numbers and letters) are replaced with dashes `-`
+
+### 2. Create a new post file: `_posts/2014-12-31-how-to-clone-a-repository.md`
 
 ```
 ---
@@ -139,7 +142,7 @@ tags: [using-git, documentation]
 See the [GitHub topic](https://help.github.com/articles/fork-a-repo/). It's pretty good.
 ```
 
-* Add, commit, and push the updates:
+### 3. Add, commit, and push the updates:
 
 ```
 $ git add _data/tags.yml
