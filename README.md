@@ -14,6 +14,7 @@ Lanyon is an unassuming [Jekyll](http://jekyllrb.com) theme that places content 
   - [Themes](#themes)
   - [Reverse layout](#reverse-layout)
 - [Tags](#tags)
+- [Setup](#setup)
 - [Development](#development)
 - [Author](#author)
 - [License](#license)
@@ -151,6 +152,17 @@ $ git add _posts/2014-12-31-how-to-clone-a-repository.md
 $ git commit -m "Add new tag and post"
 $ git push
 ```
+
+## Setup
+
+If you're reading this section, you probably want to use the `upstream-wishlist` branch for your GitHub Pages site. Here's how to use it:
+
+1. Clone [`wireddown/wireddown.github.io`](https://github.com/wireddown/wireddown.github.io) _([GitHub help](https://help.github.com/articles/cloning-a-repository/))_
+    * **or** if you want to be able to pull updates, fork instead _([GitHub help](https://help.github.com/articles/fork-a-repo/))_
+1. Delete the `gh-pages` branch -- we'll be replacing it next _([GitHub help](https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/))_
+1. Switch to the `upstream-wishlist` branch
+1. Create a branch named `gh-pages`
+1. Personalize for your site
 
 ## Development
 
