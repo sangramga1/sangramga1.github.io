@@ -24,11 +24,14 @@
         {% endif %}
       {% endif %}
     {% endfor %}
+
+    <a class="sidebar-nav-item" href="{{ site.author.url }}">GitHub project</a>
+    <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
   </nav>
 
   <div class="sidebar-item">
     <p>
-      &copy; {{ site.established }}-{{ site.time | date: '%Y' }} {{ site.author.name }} <br/> <a href="{{ site.license_url }}">{{ site.license }}</a>
+      &copy; {{ site.time | date: '%Y' }}. All rights reserved.
     </p>
   </div>
 </div>

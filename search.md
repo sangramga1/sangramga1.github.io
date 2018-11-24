@@ -4,7 +4,7 @@ title: Search
 ---
 
 <script>
-  function SearchDownToTheWire()
+  function SearchThisSite()
   {
     var url="http://google.com/search?q=site%3A{{ site.url }}+" + document.getElementById("url").value;
     location.href=url;
@@ -14,7 +14,7 @@ title: Search
 
 Thanks to Google :-)
 
-<form onsubmit="return SearchDownToTheWire();">
+<form onsubmit="return SearchThisSite();">
   <div class="search-form-container">
     <div class="search-input-container">
       <input class="search-input" type="text" name="url" id="url" />

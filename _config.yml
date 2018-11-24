@@ -5,19 +5,17 @@ permalink:           pretty
 exclude:             [CNAME, Gemfile, README.md, LICENSE.md, scratch.md]
 unpublished:         true
 show_drafts:         false
-title:               Down to the Wire
-tagline:             Elements of LabVIEW
-description:         'A blog by <a href="https://twitter.com/JoeFriedrichsen" target="_blank">@JoeFriedrichsen</a>.'
-url:                 http://downtothewire.io
+title:               'Lanyon Wishlist'
+tagline:             'Lanyon + requests from users'
+description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>, extended by its fans and users.'
+url:                 'http://lanyon.getpoole.com'
 baseurl:             ''
 
 # About/contact
 author:
-  name:              Joe Friedrichsen
-  url:               https://twitter.com/JoeFriedrichsen
-  email:             all.wired.down@gmail.com
+  name:              'Joe Friedrichsen'
+  url:               'https://github.com/wireddown/wireddown.github.io/tree/upstream-wishlist'
+  email:             'wireddown@users.noreply.github.com'
 
-# Custom data
-established:         2014
-license:             CC BY 4.0
-license_url:         http://creativecommons.org/licenses/by/4.0/legalcode
+# Custom vars
+version:             1.1.0
