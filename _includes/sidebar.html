@@ -2,7 +2,7 @@
      styles, `#sidebar-checkbox` for behavior. -->
 <!--<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">-->
 <!-- Sidebar only opens on Home page by default and not on other pages -->
-<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox" {% if page.title =="Home" %}checked{% endif %}>
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox" {% if page.title =="Home" or page.title=="About" %}checked{% endif %}>
 
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
