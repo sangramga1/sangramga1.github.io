@@ -1,7 +1,7 @@
 ---
 layout: post
 title: TechJourney
-tags: [Jekyll, GPL]
+tags: [jekyll, gpl]
 ---
 
 * Jekyll and github pages for sangramga.github.io

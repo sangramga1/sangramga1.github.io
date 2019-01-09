@@ -9,3 +9,12 @@
 
 - slug: liquid
   name: Liquid
+
+- slug: gpl
+  name: GPL
+
+- slug: gitlab
+  name: GitLab
+
+- slug: conda
+  name: Conda
