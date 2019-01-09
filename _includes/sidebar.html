@@ -6,11 +6,20 @@
 
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
-  <div class="sidebar-item">
-    <p>{{ site.description }}</p>
-  </div>
 
-  <nav class="sidebar-nav">
+<div class="sidebar-item">
+  <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+  <p align="center">{{ site.author.name }}</p>
+  <p align="center">{{ site.description }}</p>
+</div>
+
+{% comment %} 
+<div class="sidebar-item"> 
+    <p>{{ site.description }}</p>
+</div>
+{% endcomment %}
+
+<nav class="sidebar-nav">
     <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Home</a>
 
     {% comment %}

@@ -7,7 +7,7 @@ unpublished:         true
 show_drafts:         false
 title:               Tech Journey
 tagline:             Journal for Tech Learnings
-description:         'A blog by <a href="https://twitter.com/sangramga" target="_blank">@sangramga</a>.'
+description:         '<a href="https://twitter.com/sangramga" target="_blank">@sangramga</a>.'
 #url:                 http://downtothewire.io
 url:                 https://sangramga1/github.io
 baseurl:             ''
