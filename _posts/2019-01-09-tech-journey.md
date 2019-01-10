@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TechJourney
+title: Tech Journey
 tags: [jekyll, gpl]
 ---
 
